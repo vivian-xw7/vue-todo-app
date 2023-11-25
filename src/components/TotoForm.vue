@@ -1,9 +1,9 @@
 <script setup>
 import { ref } from 'vue'
-import {useTodoListStore} from '@/stores/todoList.js'
+import { useTodoListStore } from '@/stores/todoList.js'
 
 const todo = ref('')
-const store = useTodoListStore
+const store = useTodoListStore()
 
 function addItemAndClear(item) {
     if (item.length === 0) {
