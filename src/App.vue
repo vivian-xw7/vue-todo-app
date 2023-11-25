@@ -7,5 +7,5 @@ import TodoApp from './components/TodoApp.vue'
 </template>
 
 <style scoped>
-
+  
 </style>
